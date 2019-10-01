@@ -1,0 +1,291 @@
+#idtired1 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size:20px;
+	color: rgb(162, 191, 205,.9);
+}
+#idtired2 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size:20px;
+	color: rgb(162, 191, 205,.8);
+}
+#idtired3 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size:20px;
+	color: rgb(162, 191, 205,.7);
+}
+#idtired4 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size:20px;
+	color: rgb(162, 191, 205,.6);
+}
+#idtired5 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size:20px;
+	color: rgb(162, 191, 205,.5);
+}
+#idtired6 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size:20px;
+	color: rgb(162, 191, 205,.4);
+}
+#idtired7 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size:20px;
+	color: rgb(162, 191, 205,.3);
+}
+#idtired8 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size:20px;
+	color: rgb(162, 191, 205,.2);
+}
+#idtired9 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size:20px;
+	color: rgb(162, 191, 205,.1);
+}
+#idtired10 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size:20px;
+	color: rgb(162, 191, 205,.05);
+}
+.border {
+	padding: 50px;
+	border: outset;
+}
+.classflower {
+	font-family: Lucida Sans Unicode, "Lucida Grande", sans-serif;
+	font-size:20px;
+	color: rgb(0, 204, 0);
+}
+.classstem {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size:20px;
+	color: rgb(93, 70, 13);
+}
+#idgrass {
+	font-family: Courier New, Courier, monospace;
+	font-size:8px;
+	color: rgb(0, 77, 0);
+}
+#idtired {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:20px;
+	color: rgb(162, 191, 205,1);
+}
+#id30 {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:20px;
+	color: #f9e6ff;
+}
+#id31 {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:20px;
+	color: #f2ccff;
+}
+#id32 {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:30px;
+	color: #ecb3ff;
+}
+#id33 {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:40px;
+	color: #e699ff;
+}
+#id34 {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:50px;
+	color: #d966ff;
+}
+#id35 {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:60px;
+	color: #cc33ff;
+}
+#id36 {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:70px;
+	color: #bf00ff;
+}
+#id37 {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:80px;
+	color: #9900cc;
+}
+#id38 {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:90px;
+	color: #730099;
+}
+#id39 {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:100px;
+	color: #4d0066;
+}
+#id40 {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:200px;
+	color: #260033;
+}
+#bluesky {
+	background-color: rgb(204, 230, 255)
+}
+.diddle {
+	margin: 50px;
+	border:50px dotted #ffeb99;
+	padding:50px;
+}
+#fiddle {
+	margin: 50px;
+	border:20px dotted #ff5050;
+	padding:50px;
+}
+#moon {
+	margin: 50px;
+	border:80px dotted #6699ff;
+	padding:50px;
+}
+#laughed {
+	margin: 50px;
+	border:10px dotted #99ff99;
+	padding:50px;
+}
+#sport {
+	margin: 50px;
+	border:100px dotted #ccccff;
+	padding:50px;
+}
+.spoon {
+	margin: 50px;
+	border:20px dotted #ffcc99;
+	padding:50px;
+}
+.candles {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:90px;
+	color: #ff5050;
+}
+#miss {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:90px;
+	color: #6699ff;
+}
+#listen {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:90px;
+	color: #99ff99;
+}
+#passage {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:90px;
+	color: #ccccff;
+}
+#fear {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:90px;
+	color: #ffcc99;
+}
+.dark {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:150px;
+	color: rgb(204, 0, 0,.5);
+	display: inline;
+}
+.light {
+	font-family: Futura, "Trebuchet MS", Arial;
+	font-size:150px;
+	color: rgb(51, 51, 255,.5);
+	display: inline;
+}
+#heaven1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 35px;
+	color: #66ccff;
+}
+#heaven2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 35px;
+	color: #ccffff;
+}
+#heaven3 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 35px;
+	color: #ffffcc;
+}
+#heaven4 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 35px;
+	color: #ffcc99;
+}
+#heaven5 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 35px;
+	color: #ff0000;
+}
+#heaven5 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 35px;
+	color: #cc0000;
+}
+#heaven6 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 35px;
+	color: #660000;
+}
+#heaven7 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 35px;
+	color: #1a0000;
+}
+.vacation {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	color: violet;
+}
+#question {
+	border: 5px double violet;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+}
+#lightgray1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+	color: rgb(52, 85, 99,1);
+	display: inline;
+}
+#lightgray2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+	color: rgb(52, 85, 99,.9);
+	display: inline;
+}
+#lightgray3 {
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+	color: rgb(52, 85, 99,.8);
+	display: inline;
+}
+#lightgray4 {
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+	color: rgb(52, 85, 99,.6);
+	display: inline;
+}
+#lightgray5 {
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+	color: rgb(52, 85, 99,.5);
+	display: inline;
+}
+#lightgray6 {
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+	color: rgb(52, 85, 99,.3);
+	display: inline;
+}
+#lightgray7 {
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+	color: rgb(52, 85, 99,.2);
+	display: inline;
+}
