@@ -1,0 +1,34 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+.box {
+	width: 100%;
+	height: 16.7%;
+	margin:0px;
+}
+#one {
+	background-color: red;
+}
+
+#two {
+	background-color: orange;
+}
+
+#three {
+	background-color: yellow;
+}
+
+#four {
+	background-color: green;
+}
+
+#five {
+	background-color: blue;
+}
+
+#six {
+	background-color: violet;
+}
