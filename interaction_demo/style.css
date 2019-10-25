@@ -1,0 +1,54 @@
+html, body {
+	margin: 0;
+}
+.cell {
+	width: 10vw;
+	height: 10vw;
+	float: left;
+	border-radius: 50%;
+	transform:scale(1.5);
+	transition:transform 0s ease 0s;
+	transition:background-color 100ms ease 1s;
+	animation: pulse 5s infinite;
+}
+.cell:hover {
+	cursor: pointer;
+	transition:transform 0s ease 0s;
+	transition:background-color 100ms ease 1s;
+	animation: done;
+}
+.cell.one{
+	background-color: #dea29e;
+}
+.cell.one:hover {
+	background-color: #de6a62;
+}
+.cell.two{
+	background-color: #ce86e3;
+}
+.cell.two:hover {
+	background-color: #bc53db;
+}
+.cell.three{
+	background-color: #8378cf;
+}
+.cell.three:hover {
+	background-color: #5b4db8;
+}
+.cell.four:hover {
+	background-color: #4d84b8;
+}
+.cell.four {
+	background-color: #729cc4;
+}
+@keyframes pulse {
+	0%{
+		border-radius: 50%;
+	}
+	50%{
+		border-radius: 0%;
+	}
+	100%{
+		border-radius: 50%;
+	}
+}

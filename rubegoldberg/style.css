@@ -1,0 +1,276 @@
+body {
+margin-left: 0;
+}
+#bagelmaker {
+	width: 150vw;
+	height: 100vh;
+	background-image: url(background.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	animation: pan 6s 1 linear 2s forwards;
+}
+
+@keyframes pan {
+	0%{
+		transform: translate(0);
+	}
+	50% {
+		transform: translate(-200px);
+	}
+	100% {
+		transform: translate(-400px);	
+	}
+}
+#conveyerbelt2 img { 
+	position: absolute;
+	width: 50%;
+	height: auto;
+	left: -5vw;
+	top: 12vh;
+} 
+#conveyerbelt7 img {
+	position: absolute;
+	width: 45%;
+	height: auto;
+	left: 45vw;
+	top: 45vh;
+}
+#conveyerbelt4 img {
+	position: absolute;
+	width: 50%;
+	height: auto;
+	left: 90vw;
+	top: 80vh;
+} 
+#bagel img {
+	position: absolute;
+	width: 10%;
+	height: auto;
+	left: 0vw;
+	top: 6vh;
+	animation: 
+	forward 1s forwards,
+	spin 1s forwards,
+	disappearbruh .25s forwards;
+	animation-delay: 0s, 1s, 2s;    
+}
+@keyframes forward {
+	0% {
+		transform: translate(0);
+}
+	100% {
+		transform: translate(50vw);
+}
+}
+@keyframes spin {
+	0% {
+    	transform: rotate(0deg) translate(0,0px);
+		left:50vw;
+  }
+	100% {
+		transform: rotate(360deg) translate(0,30vh);
+		left:50vw;
+}
+}
+@keyframes disappearbruh {
+	0% {
+    	opacity: 1;
+  }
+	100% {
+		opacity: 0;
+}
+}
+#creamcheese img {
+	position: absolute;
+	width: 10%;
+	height: auto;
+	left: 50vw;
+	top: 35vh;
+	opacity: 0;
+	animation: 
+	disappearbroski 2.5s forwards ease-in,
+	shimmy .3s forwards,
+	zoomzoom 1s forwards,
+	spinny 1s forwards;
+	animation-delay: 0s, 2.5s, 4.5s, 6s;
+	animation-iteration-count: 1, 3, 1, 1;
+}
+@keyframes disappearbroski {
+	0% {
+    	opacity: 0;
+}
+	90% {
+    	opacity: 0;
+  }
+	100% {
+		opacity: 1;
+}
+}
+@keyframes shimmy {
+	0% {
+    	transform: translate(0);
+}
+	50% {
+		transform: translate(15px);
+	}
+	100% {
+		transform: translate(0);
+}
+}
+@keyframes zoomzoom {
+	0% {
+    	transform: translate(0);
+}
+	100% {
+		transform: translate(50vw);
+}
+}
+@keyframes spinny {
+	0% {
+    	transform: rotate(360deg) translate(0,0vh);
+		left:105vw;
+}
+	100% {
+		transform: rotate(360deg) translate(0,36vh);
+		left:105vw;
+}
+}
+#knife img {
+	position: absolute;
+	width: 10%;
+	height: auto;
+	transform: rotate(90deg);
+	left: 25vw;
+	top: -15vw;
+	animation: 
+	popout 1s infinite;
+}
+@keyframes popout {
+	0% {
+    	transform: translate(0) rotate(90deg);
+  }
+	50% {
+		transform: translate(-35vw) rotate(90deg);
+}
+	100% {
+		transform: translate(0) rotate(90deg);
+}
+}
+#salmon img {
+	position: absolute;
+	width: 5%;
+	height: auto;
+	left: 50vw;
+	top: -10vw;
+	animation:
+	drop 1s forwards,
+	salmonshimmy .3s forwards,
+	salmonzoomzoom 1s forwards,
+	salmonspinny 1s forwards;
+	animation-delay: 3s, 4.5s, 4.5s, 6s;
+	animation-iteration-count: 1,3,1, 1;
+}
+@keyframes drop {
+	0% {
+		transform: translate(0,0vh);
+}
+	100% {
+		transform: translate(0,52vh);
+}
+}
+@keyframes salmonshimmy {
+	0% {
+    	transform: translate(0);
+		left: 50vw;
+		top: 38vh;
+}
+	50% {
+		transform: translate(15px);
+		left: 50vw;
+		top: 38vh;
+	}
+	100% {
+		transform: translate(0);
+		left: 50vw;
+		top: 38vh;
+}
+}
+@keyframes salmonzoomzoom {
+	0% {
+    	transform: translate(0,0);
+		left: 50vw;
+		top: 38vh;
+}
+	100% {
+		transform: translate(50vw,0);
+		left: 50vw;
+		top: 38vh;
+}
+}
+@keyframes salmonspinny {
+	0% {
+    	transform: rotate(360deg) translate(0,0vh);
+		left:105vw;
+}
+	100% {
+		transform: rotate(360deg) translate(0,36vh);
+		left:105vw;
+}
+}
+#onion img {
+	position: absolute;
+	width: 6%;
+	height: auto;
+	left: 75vw;
+	top: -10vh;
+	animation:
+	oniondrop 1s forwards,
+	onionspinny 1s forwards;
+	animation-delay: 5s, 6s;
+}
+@keyframes oniondrop {
+	0% {
+		transform: translate(0,0vh);
+		left: 98vw;
+		top: -10vh;
+}
+	100% {
+		transform: translate(0,48vh);
+		left: 98vw;
+		top: -10vh;
+}
+}
+@keyframes onionspinny {
+	0% {
+    	transform: rotate(360deg) translate(0,0vh);
+		left:103vw;
+}
+	100% {
+		transform: rotate(360deg) translate(0,83vh);
+		left:103vw;
+}
+}
+#cucumber img {
+	position: absolute;
+	width: 3%;
+	height: auto;
+	left: 105vw;
+	top: -10vh;
+	animation:
+	cucumberdrop 1s forwards;
+	animation-delay: 6.5s;
+}
+@keyframes cucumberdrop {
+	0% {
+		transform: translate(0,0vh);
+		left: 107vw;
+		top: 25vh;
+}
+	100% {
+		transform: translate(0,48vh);
+		left: 107vw;
+		top: 25vh;
+}
+}

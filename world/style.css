@@ -1,0 +1,97 @@
+html, body {
+    width: 100%;
+    height: 100%;
+ 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+ 	font-size:30px;
+    margin: 0px;
+}
+#cupworld {
+	width: 100%;
+}
+h1 {
+ 	display: block;
+    font-size: 100%;
+    width: 60%;
+    position: absolute;
+    top: 28%;
+    left: 39%;
+    z-index: 2;
+    color: #f7410f;
+    filter: drop-shadow(0px 10px 10px rgba(0,0,0,.2));
+ 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+ 	font-size:50px; 
+}
+#cup {
+	width: 100%;
+}
+.ocean-animals {
+    width: 5%;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,.2));
+    position: absolute;
+}
+#fish {
+ 	position: absolute;
+  	top: 185%;
+ 	left: 40%;
+ 	width: 25%;
+  	height: 25%;
+  	transform: translate(-50%, -50%);
+  	z-index: 2000;
+  }
+#coral {
+  	position: absolute;
+  	top: 195%;
+ 	  left: 29%;
+ 	  width: 55%;
+  	height: 40%;
+  	transform: translate(0%, 50%);
+    transform: scaleY(1);
+  }
+#octopus {
+  	position: absolute;
+  	top: 202%;
+ 	left: 73%;
+ 	width: 20%;
+  	height: 20%;
+  	transform: translate(-50%, -50%);
+  }
+ #ship {
+  	position: absolute;
+  	top: 100%;
+ 	left: 45%;
+ 	width: 60%;
+  	height: 60%;
+  	transform: translate(-50%, -50%)
+  }
+ #turtle {
+  	position: absolute;
+  	top: 143%;
+ 	left: 65%;
+ 	width: 10%;
+  	height: 10%;
+  	z-index: 3000;
+  }
+ #dolphin{
+  	position: absolute;
+  	top: 117%;
+ 	left: 52%;
+ 	width: 10%;
+  	height: 10%;
+  	z-index: 2000;
+  }
+#scuba{
+  	position: absolute;
+  	top: 151%;
+ 	left: 37%;
+ 	width: 15%;
+  	height: 15%;
+  	z-index: 2000;
+  }
+#bird{
+  	position: absolute;
+  	top: 0%;
+ 	left: 0%;
+ 	width: 60%;
+  	height: 60%;
+  	z-index: 2000;
+  }

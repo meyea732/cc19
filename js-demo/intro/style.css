@@ -1,0 +1,25 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: "Arial Rounded", Arial;
+	margin: auto;
+}
+#box {
+	width: 500px;
+	height: 500px;
+	margin: 100px auto 100px auto;
+	border: 10px red dotted;
+	background: pink;
+	font-size: 50px;
+	line-height: 52px;
+	font-weight: bold;
+	color: red;
+	user-select: none;
+	word-break: break-all;
+	overflow-y: scroll;
+}
+.text-box {
+	margin: 5px;
+	padding: 5px;
+	border: 10px dotted red;
+}

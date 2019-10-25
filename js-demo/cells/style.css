@@ -1,0 +1,32 @@
+html, body {
+	font-family: "Arial Rounded", Arial;
+	margin: auto;
+}
+.cell {
+	width: 9vw;
+	height: 9vw;
+	float: left;
+	transition: transform 200ms ease-in-out, border-radius 200ms ease-in-out;
+}
+.cell.square {
+	transform: rotate(180deg) scale(.5);
+}
+.cell.circle {
+	border-radius: 50%;
+	transform: scale(1.2);
+}
+.cell:hover {
+	cursor: pointer;
+}
+.cell:nth-child(4n+1) {
+	background: red;
+}
+.cell:nth-child(4n+2) {
+	background: blue;	
+}
+.cell:nth-child(4n+3) {
+	background: green;
+}
+.cell:nth-child(4n+4) {
+	background: yellow;
+}
