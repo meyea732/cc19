@@ -1,0 +1,74 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background-image: repeating-radial-gradient(orange, black 10%, purple 15%);
+}
+#spookyszn {
+  display: none;
+  text-align: center;
+  width: 130%;
+  margin-left: -20%;
+  margin-top: 20%;
+  background: rgb(98,251,63);
+  text-shadow: 0 0 20px rgba(0,0,0,5);
+  font-family: 'Denk One', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 8em;
+  transform:rotate(30deg);
+  position: fixed;
+}
+.square {
+	width: 10vh;
+	height: 10vh;
+	border-radius: 50%;
+	float: left;
+	overflow-y: hidden;
+	border: 3px dotted white;
+	transition: all 500ms forwards;
+	z-index: 1;
+}
+.square:hover {
+	cursor: pointer;
+}
+.creature {
+	width: 15vh;
+	height: 15vh;
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 50%;
+	float: left;
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 5%, rgba(79,159,57,1) 6%, rgba(30,103,11,1) 10%, rgba(255,255,255,1) 16%, rgba(255,255,255,1) 25%, rgba(7,117,0,1) 26%, rgba(110,218,94,1) 51%, rgba(59,163,48,1) 68%, rgba(31,89,24,1) 100%);
+	overflow-y: hidden;
+	transition: all 500ms ease-in-out;
+	position: relative;
+	z-index: 2;	
+}
+.creature:nth-child(odd) {
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 5%, rgba(79,159,57,1) 6%, rgba(30,103,11,1) 10%, rgba(255,255,255,1) 16%, rgba(255,255,255,1) 25%, rgba(80,0,117,1) 26%, rgba(192,94,218,1) 51%, rgba(110,13,179,1) 68%, rgba(41,0,73,1) 100%);
+}
+.creature:hover {
+	cursor: pointer;
+	opacity: .5;
+}
+.smile {
+     height:2vh;
+     width:3vw;
+     border-radius: 0 0 90px 90px;
+     margin-top: 10vh;
+	 margin-left: 2.5vw;
+     background:red;
+     position: absolute;
+     z-index: 3;	
+}
+.frown {
+	 height:2vh;
+     width:3vw;
+     border-radius: 90px 90px 0 0;
+     margin-top: 10vh;
+	 margin-left: 2.5vw;
+     background:red;
+     position: absolute;
+     z-index: 3;
+}
