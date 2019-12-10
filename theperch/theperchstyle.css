@@ -52,22 +52,20 @@ html, body {
     justify-content: center;
 }
 #titlelink {
+	padding:0;
+	background-color: clear;
 	font-weight: bold;
-	color: #FFFFFF;
+	color: white;
 	text-shadow: -1px 0 #F3EC19, 0 1px #F3EC19, 1px 0 #F3EC19, 0 -1px #F3EC19;
-	font-size: 80px;
-	z-index: 999;
-	margin-left: 18vw;
-	margin-top: 165vh;
-	transition: color 500ms ease, background 500ms ease;
-	-moz-transition: color 500ms ease, background 500ms ease;
-	-webkit-transition: color 500ms ease, background 500ms ease;
+	font-size: 140px;
+	z-index: 1;
+	margin-left: 15vw;
+	margin-top: 118vh;
 	opacity: 1;
 	position: absolute;
 }
 #titlelink:hover {
 	cursor: pointer;
-	color: #F3EC19;
 }
 a {
 	text-decoration: none;
@@ -144,16 +142,11 @@ a {
     animation-duration: 1ms;
     animation-fill-mode: backwards;
     animation-play-state: paused;
-    animation-iteration-count: 1
-}
-.pile img:hover {
-	opacity: 1;
+    animation-iteration-count: 1;
+    z-index: 1000;
 }
 .topline img {
 	margin-top: 25vh;
-}
-.pile img:hover::after {
-	opacity: 1;
 }
 .lightSpeedIn {
     -webkit-animation-name: lightSpeedIn;
@@ -180,8 +173,14 @@ a {
 	z-index: 0;
 }
 #zpasta img {
-	z-index: 1000;
+	z-index: 3;
 	width: 1000;
 	top: 400px;
 	left: 600px;
+}
+#shoe img {
+	opacity: 0;
+}
+#camera img {
+	opacity: 0;
 }
