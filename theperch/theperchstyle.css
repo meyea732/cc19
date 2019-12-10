@@ -56,7 +56,7 @@ html, body {
 	background-color: clear;
 	font-weight: bold;
 	color: white;
-	text-shadow: -1px 0 #F3EC19, 0 1px #F3EC19, 1px 0 #F3EC19, 0 -1px #F3EC19;
+	text-shadow: -2px 0 #F3EC19, 0 2px #F3EC19, 2px 0 #F3EC19, 0 -2px #F3EC19;
 	font-size: 140px;
 	z-index: 1;
 	margin-left: 15vw;
@@ -164,6 +164,7 @@ a {
     opacity: 1;
 }
 .pano img {
+	top: 200vh;
 	margin-left: -450vw;
 	transform: rotate(90deg);
 	width:1000vw;
@@ -171,12 +172,6 @@ a {
 	position: absolute;
 	display: block;
 	z-index: 0;
-}
-#zpasta img {
-	z-index: 3;
-	width: 1000;
-	top: 400px;
-	left: 600px;
 }
 #shoe img {
 	opacity: 0;
