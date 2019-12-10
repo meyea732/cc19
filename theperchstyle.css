@@ -1,0 +1,173 @@
+html, body {
+	font-family: 'Helvetica Neue';
+	background-color: #FFFFFF;
+	font-size: 20px;
+	margin: 0px;
+}
+#headertitle{
+	text-align: center;
+	font-weight: bold;
+	font-size: 80px;
+	color: #FFFFFF;
+	z-index: 2;
+	width: 100%;
+	background-color: #F3EC19;
+	height: 200px;
+	display: flex;
+ 	align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+#headertitle p {
+	margin: 0;
+}
+#artistprofilepic {
+	max-height: 10%;
+	z-index:100;
+	position: relative;
+}
+#artistprofilepic img {
+	border: 10px;
+	outline: 5px #F3EC19;
+  	outline-offset: -10px;
+	outline-style: solid;
+	width: 98%;
+	align-items: center;
+}
+#artist_profile_paragraph {
+	width: 48vw;
+	padding: 1%;
+	display: inline;
+    z-index: 1000;
+    float: right;
+}
+.half {
+	top: 50px;
+	width: 42vw;
+	height: 42vw;
+	margin: 30px;
+	box-sizing: border-box;
+	float: left;
+	align-items: center;
+    justify-content: center;
+}
+#titlelink {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: -1px 0 #F3EC19, 0 1px #F3EC19, 1px 0 #F3EC19, 0 -1px #F3EC19;
+	font-size: 80px;
+	z-index: 999;
+	margin-left: 20vw;
+	margin-top: 250vh;
+	transition: color 500ms ease, background 500ms ease;
+	-moz-transition: color 500ms ease, background 500ms ease;
+	-webkit-transition: color 500ms ease, background 500ms ease;
+	opacity: 1;
+	position: absolute;
+}
+#titlelink:hover {
+	cursor: pointer;
+	color: #F3EC19;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+	margin-left: inherit;
+	margin-top: inherit;
+}
+#titlelink1 {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: -1px 0 #F3EC19, 0 1px #F3EC19, 1px 0 #F3EC19, 0 -1px #F3EC19;
+	font-size: 200px;
+	-webkit-transition: color 500ms ease, background 500ms ease;
+}
+#titlelink1:hover {
+	cursor: pointer;
+	color: #F3EC19;
+}
+#namelink1 {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: -1px 0 #F3EC19, 0 1px #F3EC19, 1px 0 #F3EC19, 0 -1px #F3EC19;
+	font-size: 80px;
+	z-index: 999;
+	transition: color 500ms ease, background 500ms ease;
+	-moz-transition: color 500ms ease, background 500ms ease;
+	-webkit-transition: color 500ms ease, background 500ms ease;
+	opacity: 1;
+	display: flex;
+ 	align-items: center;
+    justify-content: center;
+}
+#titlelink1 a {
+	width: 100%;
+	align-items: center;
+	display: table;
+	margin: auto;
+}
+#namelink1 a {
+	width: 100%;
+	align-items: center;
+	display: table;
+	margin: auto;
+}
+#namelink1:hover {
+	width: 100%;
+	cursor: pointer;
+	color: #F3EC19;
+}
+#theperchhomepic {
+	background-image: url("theperchhomepic.jpg");
+	background-color: #F3EC19;
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#cup img {
+	opacity: 0;
+}
+#tape img{
+	opacity: 0;
+}
+#camera img {
+	opacity: 0;
+	animation-name: hoverdisplay;
+    animation-duration: 1ms;
+    animation-fill-mode: backwards;
+    animation-play-state: paused;
+}
+.pile img {
+	margin-top: 30vh;
+	width: 10vw;
+	height: auto;
+	box-sizing: border-box;
+	float: left;
+	align-items: center;
+    justify-content: center;
+}
+#camera img:hover {
+	opacity: 1;
+}
+/*.lightSpeedIn {
+    -webkit-animation-name: lightSpeedIn;
+    animation-name: lightSpeedIn;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.revealOnScroll {
+    opacity: 1;
+}
+*/
