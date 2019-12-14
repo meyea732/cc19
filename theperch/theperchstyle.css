@@ -81,10 +81,6 @@ a {
 	font-size: 200px;
 	-webkit-transition: color 500ms ease, background 500ms ease;
 }
-#titlelink1:hover {
-	cursor: pointer;
-	color: #F3EC19;
-}
 #namelink1 {
 	position: relative;
 	text-align: center;
@@ -164,14 +160,24 @@ a {
     opacity: 1;
 }
 .pano img {
-	top: 200vh;
-	margin-left: -450vw;
 	transform: rotate(90deg);
-	width:1000vw;
+	width: 3000px;
 	height: auto;
-	position: absolute;
-	display: block;
-	z-index: 0;
+	position: relative;
+	justify-content: center;
+    display: inline-block;
+    margin-top: 2650px;
+    margin-left: -800px;
+}
+#pano01 img {
+	margin-top: 1380px;
+	transform: rotate(90deg);
+	width: 3000px;
+	height: auto;
+	position: relative;
+	justify-content: center;
+    display: inline-block;
+    margin-left: -800px;
 }
 #shoe img {
 	opacity: 0;
