@@ -162,20 +162,18 @@ a {
 .pano img {
 	transform: rotate(90deg);
 	position: relative;
-	width: 3000px;
-	height: auto;
 	justify-content: center;
     display: inline-block;
 }
 #pano01 img {
 	margin-top: 0px;
 	transform: rotate(90deg);
-	width: 3000px;
+	width: 200%;
 	height: auto;
 	position: relative;
 	justify-content: center;
     display: inline-block;
-    margin-left: 0px;
+    margin-left:-800px;
 }
 #shoe img {
 	opacity: 0;
