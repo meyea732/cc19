@@ -173,7 +173,7 @@ a {
 	position: relative;
 	justify-content: center;
     display: inline-block;
-    margin-left:-500px;
+    margin-left:0px;
 }
 #shoe img {
 	opacity: 0;
