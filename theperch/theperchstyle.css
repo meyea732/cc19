@@ -161,23 +161,19 @@ a {
 }
 .pano img {
 	transform: rotate(90deg);
-	width: 3000px;
-	height: auto;
 	position: relative;
 	justify-content: center;
     display: inline-block;
-    margin-top: 2650px;
-    margin-left: -800px;
 }
 #pano01 img {
-	margin-top: 1380px;
+	margin-top: 0px;
 	transform: rotate(90deg);
-	width: 3000px;
+	width: 0px;
 	height: auto;
 	position: relative;
 	justify-content: center;
     display: inline-block;
-    margin-left: -800px;
+    margin-left: 0px;
 }
 #shoe img {
 	opacity: 0;
