@@ -168,12 +168,12 @@ a {
 #pano01 img {
 	margin-top: 0px;
 	transform: rotate(90deg);
-	width: 200%;
+	width: 400%;
 	height: auto;
 	position: relative;
 	justify-content: center;
     display: inline-block;
-    margin-left: -750px;
+    margin-left: -1500px;
 }
 #shoe img {
 	opacity: 0;
