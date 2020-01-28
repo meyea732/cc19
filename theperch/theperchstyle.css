@@ -168,7 +168,7 @@ a {
 #pano01 img {
 	margin-top: 0px;
 	transform: rotate(90deg);
-	width: 500%;
+	width: 200%;
 	height: auto;
 	position: relative;
 	justify-content: center;
